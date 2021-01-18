@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Subscriptions</name>
+    </assembly>
+    <members>
+        <member name="T:Subscriptions.Data.Models.Subscription">
+            <summary>
+            Подписка
+            </summary>
+        </member>
+        <member name="P:Subscriptions.Data.Models.Subscription.Price">
+            <summary>
+            Цена
+            </summary>
+        </member>
+        <member name="P:Subscriptions.Data.Models.Subscription.LastDay">
+            <summary>
+            Срок подписки(дней)
+            </summary>
+        </member>
+       
+        <member name="T:Subscriptions.Models.Settings.AppSettings">
+            <summary>
+            Настройки приложения.
+            </summary>
+        </member>
+        <member name="P:Subscriptions.Models.Settings.AppSettings.Kestrel">
+            <summary>
+            Настройки сервера Kestrel.
+            </summary>
+        </member>
+        <member name="P:Subscriptions.Models.Settings.AppSettings.Connection">
+            <summary>
+            Настройки подключения.
+            </summary>
+        </member>
+        <member name="T:Subscriptions.Models.Settings.ConnectionSettings">
+            <summary>
+            Настройки подключения.
+            </summary>
+        </member>
+        <member name="P:Subscriptions.Models.Settings.ConnectionSettings.DatabaseConnection">
+            <summary>
+            Настроки подключения к Базе данных.
+            </summary>
+        </member>
+        <member name="T:Subscriptions.Models.Settings.KestrelSettings">
+            <summary>
+            Настройки сервера Kestrel.
+            </summary>
+        </member>
+        <member name="P:Subscriptions.Models.Settings.KestrelSettings.Port">
+            <summary>
+            Порт.
+            </summary>
+        </member>
+    </members>
+</doc>
